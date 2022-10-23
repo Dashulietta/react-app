@@ -36,9 +36,10 @@ export default function Weather() {
       return (
         <div>
           {form}
+          <h4> Weather in {city}:</h4>
           <ul>
             <li> Temperature: {Math.round(weather.temperature)}℃ </li>
-            <li> Description: {weather.description} % </li>
+            <li> Description: {weather.description} </li>
             <li> Humidity: {weather.humidity} % </li>
             <li> Wind: {weather.wind} km/h</li>
             <li>
